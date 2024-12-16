@@ -1,0 +1,8 @@
+[package]
+name = "rust_jokes"
+version = "0.1.0"
+edition = "2021"
+authors = ["Amit Kumar Yadav <amitkumaryadav191@gmail.com>"]
+description = "A fun library for Rust jokes."
+[dependencies]
+rand = "0.8.5"
