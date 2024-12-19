@@ -22,6 +22,31 @@ pub fn get_random_joke() -> &'static str {
         "Rust's compiler holds your hand. C++'s compiler slaps it away and says, 'Figure it out!",
         "C++ makes you memorize everything about the language to avoid pitfalls. Rust just gives you lifelines and says, 'Go be productive.",
         "Learning C++ is like learning to juggle knives blindfolded. Learning Rust is like learning to juggle—with safety nets and foam knives.",
+        "Rust beginners: This should work! Compiler: Nope, ownership rules violated.",
+        "Rust programmers on a date: Can I borrow your heart… immutably?",
+        "Rustacean: Are you looking for a long-term relationship? 
+        GF: Of course!
+        Rustacean: Good, because I can't handle dangling references.",
+        "GF: So, what do you think of us?
+        Rustacean: I think we’re an Ok() with no Err() so far!",
+        "Friend 1: How do you know if someone’s a true friend?
+        Friend 2: If they don’t panic when you unwrap() your problems.",
+        "Friend 1: Do you think we’ll stay friends forever?
+        Friend 2: As long as our lifetimes don’t 'end, we’re good!",
+        "Our friendship is like Rc: shared ownership, zero drops.",
+        "In Rust and friendship, lifetimes matter.",
+        "Our bond is immutable—arguments can’t change us.",
+        "Friends are the Ok() to my Result.",
+        "I tried to borrow your heart, but the borrow checker said it’s already owned.",
+        "Dating me is like debugging in Rust: frustrating at first, but so worth it when it works.",
+        "You make my heart race like an infinite loop without a break.",
+        "C++ developers: 'Memory management is easy!' Rust: 'Hold my borrow checker.'",
+        "C++ is like a haunted house—enter at your own risk, and don’t touch anything.",
+        "C++: ‘Oops, I double-freed memory.’ Rust: ‘What is this madness?’",
+        "Why debug in C++ when you can just rewrite the program in Rust?",
+        "Rust is like, ‘Let’s use lifetimes to make sure we’re not breaking up,’ and C++ is like, ‘I’m fine with null relationships.’",
+        "Rust always wants to make their relationship type-safe, but C++ insists on using void.",
+        "C++ is always messing around with pointers, and Rust is there to make sure nothing gets dereferenced without permission.",
     ];
     let index = rand::random::<usize>() % jokes.len();
     jokes[index]
